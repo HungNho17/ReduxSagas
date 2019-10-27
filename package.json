@@ -1,0 +1,40 @@
+{
+  "name": "ReduxSagas",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && webpack --config ./config/webpack.config.js --mode production",
+    "start": "webpack-dev-server --config ./config/webpack.config.js --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HungNho17/ReduxSagas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HungNho17/ReduxSagas/issues"
+  },
+  "homepage": "https://github.com/HungNho17/ReduxSagas#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1"
+  }
+}
