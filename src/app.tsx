@@ -1,9 +1,14 @@
 import * as React from 'react';
+import HelloWorld from './components/helloWorld';
 
-export default class App extends React.Component<any, any> {
+class App extends React.Component<any, any> {
  render() {
   return (
-   <div>Hello world !</div>
+   <div>
+    <HelloWorld/>
+   </div>
   );
  };
 }
+
+export default App;
